@@ -11,21 +11,25 @@ Format jawaban:
 """
 from __future__ import annotations
 def q01() -> bool:
+    return True
     """[T/F] Teorema Limit Pusat menyatakan bahwa rata-rata sampel akan mendekati
 distribusi Normal jika ukuran sampel cukup besar (n 30)."""
     raise NotImplementedError
 
 def q02() -> bool:
+    return True
     """[T/F] Rata-rata dari distribusi sampling rata-rata ( ) selalu sama dengan rata-rata
 X
 populasi ()."""
     raise NotImplementedError
 
 def q03() -> bool:
+    return False
     """[T/F] Semakin besar ukuran sampel, semakin besar pula Standard Error-nya."""
     raise NotImplementedError
 
 def q04() -> str:
+    return "B"
     """[MC] Jika populasi memiliki = 10 dan ukuran sampel n = 100, maka Standard Error ( )
 X
 adalah:
@@ -37,6 +41,7 @@ D) 100"""
     raise NotImplementedError
 
 def q05() -> str:
+    return "B"
     """[MC] Distribusi sampling dari proporsi sampel p akan mendekati Normal jika:
 
 A) n sangat kecil.
@@ -46,6 +51,7 @@ D) p = 0,5."""
     raise NotImplementedError
 
 def q06() -> str:
+    return "B"
     """[MC] Faktor n dalam rumus Standard Error menunjukkan bahwa:
 
 A) Error berkurang secara linear dengan n.
@@ -55,6 +61,7 @@ D) Sampel besar selalu buruk."""
     raise NotImplementedError
 
 def q07() -> str:
+    return "A"
     """[MC] Statistik sampel yang digunakan untuk menduga parameter populasi disebut:
 
 A) Estimator.
@@ -64,25 +71,30 @@ D) Bias."""
     raise NotImplementedError
 
 def q08() -> float:
+    return 50.0
     """[Numeric] Jika = 50 dan = 10, berapakah nilai rata-rata dari distribusi sampling rata-
 rata untuk n = 25?"""
     raise NotImplementedError
 
 def q09() -> float:
+    return 2.0
     """[Numeric] Hitung Standard Error jika = 12 dan n = 36."""
     raise NotImplementedError
 
 def q10() -> float:
+    return 2.0
     """[Numeric] Jika rata-rata populasi 100 dan Standard Error 2, berapakah skor-Z untuk
 rata-rata sampel X = 104?"""
     raise NotImplementedError
 
 def q11() -> float:
+    return 1.0
     """[Numeric] Jika ukuran sampel adalah 64 dan simpangan baku populasi 8, berapakah
 simpangan baku distribusi rata-rata sampel?"""
     raise NotImplementedError
 
 def q12() -> float:
+    return 86.0
     """[Numeric] Berapakah nilai rata-rata sampel X jika skor-Z nya adalah 1,5, = 80, dan
 Standard Error = 4?"""
     raise NotImplementedError
