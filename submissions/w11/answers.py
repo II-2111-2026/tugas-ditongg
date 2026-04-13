@@ -11,21 +11,25 @@ Format jawaban:
 """
 from __future__ import annotations
 def q01() -> bool:
+    return True
     """[T/F] Semakin tinggi tingkat kepercayaan yang diinginkan, semakin lebar interval
 kepercayaan yang dihasilkan."""
     raise NotImplementedError
 
 def q02() -> bool:
+    return False
     """[T/F] Interval kepercayaan 95% berarti ada peluang 95% bahwa parameter populasi
 berada dalam rentang tersebut untuk satu interval yang sudah dihitung."""
     raise NotImplementedError
 
 def q03() -> bool:
+    return True
     """[T/F] Distribusi t-Student mendekati distribusi Normal saat derajat kebebasan () menjadi
 sangat besar."""
     raise NotImplementedError
 
 def q04() -> str:
+    return "B"
     """[MC] Jika kita ingin mempersempit interval kepercayaan tanpa mengubah tingkat
 kepercayaan, kita harus:
 
@@ -36,6 +40,7 @@ D) Tidak melakukan apa-apa."""
     raise NotImplementedError
 
 def q05() -> str:
+    return "B"
     """[MC] Nilai kritis untuk tingkat kepercayaan 95% adalah:
 
 A) 1,645
@@ -45,6 +50,7 @@ D) 1,00"""
     raise NotImplementedError
 
 def q06() -> str:
+    return "C"
     """[MC] Derajat kebebasan () untuk interval kepercayaan rata-rata satu sampel berukuran
 n adalah:
 
@@ -55,6 +61,7 @@ D) n/2"""
     raise NotImplementedError
 
 def q07() -> str:
+    return "C"
     """[MC] Estimasi titik terbaik untuk rata-rata populasi adalah:
 
 A) Median sampel.
@@ -64,24 +71,29 @@ D) Standar deviasi sampel."""
     raise NotImplementedError
 
 def q08() -> float:
+    return 95.0
     """[Numeric] Jika X = 100, Margin Error = 5, berapakah batas bawah interval
 kepercayaan?"""
     raise NotImplementedError
 
 def q09() -> float:
+    return 1.0
     """[Numeric] Untuk sampel n = 16 dan simpangan baku sampel = 4, berapakah nilai
 estimasi Standard Error-nya?"""
     raise NotImplementedError
 
 def q10() -> float:
+    return 24.0
     """[Numeric] Berapakah derajat kebebasan jika ukuran sampel adalah 25?"""
     raise NotImplementedError
 
 def q11() -> float:
+    return 50.0
     """[Numeric] Jika interval kepercayaan adalah , berapakah nilai estimasi titik rata-ratanya?"""
     raise NotImplementedError
 
 def q12() -> float:
+    return 1.0
     """[Numeric] Jika margin error adalah 2 dan nilai kritis = 2, berapakah Standard Error-
 nya?"""
     raise NotImplementedError
