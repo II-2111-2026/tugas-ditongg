@@ -11,18 +11,22 @@ Format jawaban:
 """
 from __future__ import annotations
 def q01() -> bool:
+    return True
     """[T/F] Total luas di bawah kurva fungsi padat probabilitas (PDF) selalu sama dengan 1."""
     raise NotImplementedError
 
 def q02() -> bool:
+    return True
     """[T/F] Distribusi Normal Standar memiliki mean 0 dan variansi 1."""
     raise NotImplementedError
 
 def q03() -> bool:
+    return True
     """[T/F] Pada distribusi kontinu, P(X ) selalu sama dengan P(X )."""
     raise NotImplementedError
 
 def q04() -> str:
+    return "A"
     """[MC] Nilai yang bersesuaian dengan nilai pada distribusi
 (,2)
 adalah:
@@ -34,6 +38,7 @@ D) −"""
     raise NotImplementedError
 
 def q05() -> str:
+    return "C"
     """[MC] Distribusi mana yang sering digunakan untuk memodelkan waktu antar kejadian
 dalam proses Poisson?
 
@@ -44,6 +49,7 @@ D) Uniform."""
     raise NotImplementedError
 
 def q06() -> str:
+    return "B"
     """[MC] Sekitar 95% data dalam distribusi Normal berada dalam rentang:
 
 A) 
@@ -53,6 +59,7 @@ D) 0 1"""
     raise NotImplementedError
 
 def q07() -> str:
+    return "B"
     """[MC] Jika = 0,5 pada distribusi Eksponensial, maka nilai harapannya adalah:
 
 A) 0,5
@@ -62,23 +69,28 @@ D) 0,25"""
     raise NotImplementedError
 
 def q08() -> float:
+    return 0.5
     """[Numeric] Jika (0,1), berapakah P( 0)?"""
     raise NotImplementedError
 
 def q09() -> float:
+    return 0.01
     """[Numeric] Sebuah komponen memiliki rata-rata waktu hidup 100 jam (Eksponensial).
 Berapakah parameter -nya?"""
     raise NotImplementedError
 
 def q10() -> float:
+    return 1.96
     """[Numeric] Nilai untuk probabilitas kumulatif 0,975 adalah sekitar... (Gunakan 2 desimal)"""
     raise NotImplementedError
 
 def q11() -> float:
+    return 1.0
     """[Numeric] Jika X (10,4), berapakah nilai skor-Z untuk = 12?"""
     raise NotImplementedError
 
 def q12() -> float:
+    return 0.0013
     """[Numeric] Pada distribusi Normal Standar, berapakah nilai P( > 3) mendekati?
 (Gunakan 4 desimal)"""
     raise NotImplementedError
